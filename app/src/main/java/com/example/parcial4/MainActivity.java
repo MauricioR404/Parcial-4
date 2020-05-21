@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
         Intent listDepartaments = new Intent(MainActivity.this, listDepartment.class);
         //startActivity(listDepartaments);
 
-
+        //Mauricio Rivas #3518772016
+        
         Button tvLogin = (Button) findViewById(R.id.tvLogin);
 
         tvLogin.setOnClickListener(new View.OnClickListener() {
@@ -47,10 +48,6 @@ public class MainActivity extends AppCompatActivity {
                         textoNormal.setText("Usuario o Contraseña incorrecta");
                     }
                 }
-
-                //if(user.equals("ELE1") && pass.equals("SECC01")) {
-                  //  startActivity(i);
-               // }
             }
         });
     }

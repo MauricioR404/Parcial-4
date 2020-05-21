@@ -41,7 +41,7 @@
         <item>"10. San Pedro Puxtla"</item>
         <item>"11. Tacuba"</item>
     </string-array>
-        <string-array name="santana">
+    <string-array name="santana">
         <item>"Candelaria de la Frontera 91.13 km² 33,550 hab."</item>
         <item>"Chalchuapa 165.76 km² 86,200 hab."</item>
         <item>"Coatepeque 126.85 km² 48,544 hab."</item>

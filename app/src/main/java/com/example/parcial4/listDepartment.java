@@ -31,7 +31,7 @@ public class listDepartment extends ListActivity {
         Intent i = new Intent(listDepartment.this, Municipality.class);
         nameDepartaments = getResources().getStringArray(R.array.departamentos);
         String name = nameDepartaments[position];
-        i.putExtra("municipality", name);
+        i.putExtra("department", name);
         startActivity(i);
     }
 }
